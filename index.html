@@ -8,18 +8,23 @@
   </head>
   <body>
    <a-scene>
-      <a-assets>
-        <img id="background" src="360-view.jpg">
+	<a-assets>
+		<img id="background" src="360-view.jpg">
 		<!-- <video id="baloon" autoplay loop="true" src="baloon.mp4"> -->
-		<img id="alvin" src="Alvin.PNG">
-      </a-assets>
+	
+		<img id="alvin" src="Alvin.PNG">		
+		<video id="baloon" autoplay loop="true" src="baloon.mp4">
+	</a-assets>
 
-	   <!-- <a-sky color="#fff"></a-sky> -->
-      <a-sky src="#background"></a-sky>
-	  <!--  <a-videosphere src="#baloon"></a-videosphere>
-	   <a-videosphere src="baloon.mp4"></a-videosphere> -->
-	  <a-image src="#alvin" width="10" height="5" position="-2 1.5 -3"
+		<!-- <a-sky color="#fff"></a-sky> -->
+		<a-sky src="#background"></a-sky>
+		<!--  <a-videosphere src="#baloon"></a-videosphere>
+		<a-videosphere src="baloon.mp4"></a-videosphere> -->
+		<a-image src="#alvin" width="10" height="5" position="-2 1.5 -3"
                scale="0.2 0.2 0.2"></a-image>
+		
+		<!-- <a-video src="#baloon" width="16" height="9" position="0 0 -20"></a-video>  -->
+		<a-videosphere src="#baloon"></a-videosphere>
     </a-scene>
   </body>
 </html>
