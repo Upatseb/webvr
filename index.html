@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exact VR - Test</title>
+    <meta name="description" content="Exact VR - Test">
+    <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+  </head>
+  <body>
+   <a-scene>
+      <a-assets>
+        <img id="background" src="360-view.jpg">
+		<!-- <video id="baloon" autoplay loop="true" src="baloon.mp4"> -->
+		<img id="alvin" src="Alvin.PNG">
+      </a-assets>
+
+	   <!-- <a-sky color="#fff"></a-sky> -->
+      <a-sky src="#background"></a-sky>
+	  <!--  <a-videosphere src="#baloon"></a-videosphere>
+	   <a-videosphere src="baloon.mp4"></a-videosphere> -->
+	  <a-image src="#alvin" width="10" height="5" position="-2 1.5 -3"
+               scale="0.2 0.2 0.2"></a-image>
+    </a-scene>
+  </body>
+</html>
